@@ -18,8 +18,3 @@ SELECT  name, [rows], reserved, data, index_size, unused FROM TEST
 WHERE ([rows] > 0) order by cast (rows as float) desc
 
 
-
-SELECT ROUTINE_NAME, ROUTINE_DEFINITION
-FROM INFORMATION_SCHEMA.ROUTINES 
-WHERE ROUTINE_TYPE='PROCEDURE' AND
-      ROUTINE_NAME LIKE '%Product%'
