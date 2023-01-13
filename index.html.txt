@@ -11,6 +11,7 @@
 <p>This is the first file in my new Git Repo.</p>
 <p>A new line in our file!</p>
 <p>A second line in our news file!</p>
-
+<p>A Third line in our news file!</p>
+<p>A Four line in our news file!</p>
 </body>
 </html>
